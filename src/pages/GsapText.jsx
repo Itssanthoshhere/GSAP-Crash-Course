@@ -69,3 +69,4 @@ const GsapText = () => {
 };
 
 export default GsapText;
+

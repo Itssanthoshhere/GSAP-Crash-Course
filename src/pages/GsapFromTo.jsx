@@ -66,3 +66,4 @@ const GsapFromTo = () => {
 };
 
 export default GsapFromTo;
+

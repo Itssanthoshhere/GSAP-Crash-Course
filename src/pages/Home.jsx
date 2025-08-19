@@ -53,25 +53,25 @@ const Home = () => {
           {animations.map((animation, index) => (
             <li
               key={index}
-              className="flex flex-row gap-2 p-5 hover:bg-zinc-800/50 rounded-lg"
+              className="flex flex-row gap-2 p-5 rounded-lg hover:bg-zinc-800/50"
             >
               <p>
                 <span className="text-sm font-bold text-zinc-50">
                   {index + 1}.
                 </span>
               </p>
-              <div className="flex flex-col gap-2 flex-1">
+              <div className="flex flex-col flex-1 gap-2">
                 <Link
                   to={animation.path}
-                  className="text-md font-semibold text-blue-600"
+                  className="font-semibold text-blue-600 text-md"
                 >
                   {animation.title}
                 </Link>
-                <p className="text-gray-400 text-xs">{animation.description}</p>
+                <p className="text-xs text-gray-400">{animation.description}</p>
               </div>
 
               <svg
-                className="size-6 text-gray-600 -rotate-90"
+                className="text-gray-600 -rotate-90 size-6"
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -90,3 +90,4 @@ const Home = () => {
 };
 
 export default Home;
+

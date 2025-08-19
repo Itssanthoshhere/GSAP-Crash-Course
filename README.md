@@ -84,4 +84,3 @@ Feel free to connect with me:
 ## ⭐️ Show Your Support
 
 If you liked this project, drop a ⭐ on the repo and share it with others!
-# GSAP-Crash-Course
