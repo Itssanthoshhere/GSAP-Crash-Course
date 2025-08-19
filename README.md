@@ -14,6 +14,13 @@
     A beginner-friendly crash course repo to learn <b>GSAP animations with React</b>.  
     Explore animations like <i>to, from, fromTo, stagger, timelines, and text animations</i> step by step!
   </div>
+
+  <br />
+
+   <a href="https://your-live-website-link.com" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-brightgreen?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+  </a>
+
 </div>
 
 ---
